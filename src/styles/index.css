@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  color: #282828;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../assets/fonts/Noto_Sans_KR/static/NotoSansKR-Regular.ttf")
+    format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import "tailwindcss";
